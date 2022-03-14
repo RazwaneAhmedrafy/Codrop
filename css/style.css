@@ -1,0 +1,807 @@
+.navbar-brand img{
+	width: 60px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand .logo-content{
+	font-size: 30px;
+	color: #fff;
+}
+header{
+	background-color: #37517e;
+	background-image: url(../images/bgpic.png);
+	background-repeat: no-repeat;
+	background-size: 600px;
+	background-position: right bottom;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(242 255 255);
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgb(71 179 228);
+}
+.home .btn:hover{
+	box-shadow: 0 0.0rem 0rem rgb(0 0 0 / 0%) !important;
+}
+.home h1{
+	padding-top:36px;
+}
+.home{
+	padding-bottom: 70px;
+}
+
+.home p{
+	padding-top:36px;
+}
+
+
+.blue{
+	background-color: #47b2e4;
+}
+
+.partner{
+	padding-top: 40px;
+}
+
+
+.features-section{
+padding: 70px 0px 100px;
+}
+
+.feature h1{
+	 color: rgb(18, 48, 74);
+	 font-weight: 600;
+	 font-size: 32px;
+}
+.feature h2{
+	    font-size: 20px;
+    margin: 15px 0px;
+    color: rgb(18, 48, 74);
+
+}
+.feature p{
+	color: hsl(207deg 24% 45%);
+	font-size: 17px;
+}
+.feature {
+	padding: 15px ;
+
+}
+
+
+
+.feature > img{
+	width: 30px;
+	filter: #379cf4;
+	color: #379cf4;
+	cursor: pointer;
+
+}
+
+.feature  a{
+	color: #47b3e4;
+	text-decoration: none;
+	font-weight: 600;
+	transition: all ease .3s;
+	font-size: 18px;
+
+}
+.feature a:hover{
+	padding-left: 20px;
+}
+
+.about-section{
+	background-color: #F1F5F7;
+	padding: 100px 0px;
+	background-image: url(../images/iso-2.png);
+	background-repeat: no-repeat;
+	
+    background-size: 500px;
+    background-position: center left;
+}
+
+.about-section a{
+	background-color:#47b3e4;
+	text-decoration: none;
+	font-weight: 600;
+	transition: all ease .5s;
+	font-size: 18px;
+	color: #fff;
+}
+
+.about-section a:hover{
+	background-color: transparent;
+	color: #47b3e4;
+}
+
+.about h1{
+	 color: rgb(18, 48, 74);
+	 font-weight: 600;
+	 font-size: 32px;
+}
+
+.about p{
+	color: hsl(207deg 24% 45%);
+	font-size: 17px;
+	margin-bottom: 30px;
+}
+
+.question-section{
+	padding: 100px 0px;
+}
+.question-section p{
+	margin-left: 25px;
+}
+.question-section h1{
+	 color: rgb(18, 48, 74);
+	 font-weight: 600;
+	 font-size: 32px;
+}
+
+.question-section img{
+	width: 28px;
+    margin-right: 7px;
+}
+.question-section ul li a{
+	text-decoration: none;
+	color:rgb(18, 48, 74);
+	font-weight: 500;
+}
+.question-section ul li a:hover{
+color: #3081c8;
+}
+
+.question-section ul li[aria-expanded="false"] img{
+
+}
+
+.question-section ul li[aria-expanded="true"] img{
+	transform: rotate(90deg);
+}
+
+.question-section ul li{
+
+margin-bottom: 15px;
+
+
+}
+.heading{
+text-align: center;
+}
+
+.heading h1{
+	 color: rgb(18, 48, 74);
+	 font-weight: 600;
+	 font-size: 32px;
+	 margin-bottom: 30px;
+}
+
+.heading p{
+	color: hsl(207deg 24% 45%);
+	font-size: 17px;
+	max-width: 750px;
+	margin:auto;
+	margin-bottom: 40px;
+}
+.large-section{
+	background-color: #f1f5f7;
+    padding: 100px 0px;
+}
+
+.large-section .feature{
+	background-color:#fff;
+	margin-bottom: 25px;
+	transition-duration: .5s;
+}
+.large-section .feature:hover{
+	transform: translatey(-15px);
+}
+
+
+
+.large-section .feature h2{
+	margin: 30px 0px;
+}
+.large-section .feature p{
+	margin-bottom: 20px;
+}
+
+
+.solution-section{
+padding: 100px 0px;
+background-color: #37517e;
+}
+
+.solution-section .heading h1{
+color: #fff;
+}
+.solution-section .heading p{
+	color: #fff;
+}
+
+.solution-section img{
+	width: 60px;
+	cursor: pointer;
+}
+
+
+.member-section{
+	padding:100px 0px;
+	background-color: #f1f5f7;
+	background-image: url(../images/iso-3.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-size:600px;
+}
+.member-section img{
+	width: 20px;
+	color: rgb(71, 178, 228);
+	margin-right: 10px;
+}
+.member-section a{
+	text-decoration:none;
+	color: rgb(18 48 74);
+	
+	border: 1px solid;
+	padding:10px 15px;
+
+}
+
+.member-section h1{
+	margin-bottom: 30px;
+}
+.member-section h3{
+       color: rgb(18, 48, 74);
+	 font-weight: 600;
+	 
+}
+.member-section h4{
+color: rgb(18, 48, 74);
+	 font-weight: 600;
+}
+
+    .member-section ul li:last-child {
+    border-left: 1px solid;
+    border-color: #ccc;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+.member-section ul{
+	margin-bottom: 20px;
+}
+
+.member-section a:last-child{
+	margin-left: 30px;
+}
+
+
+.price-section{
+	padding: 100px 0px;
+}
+
+.price-table{
+	box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+	border-radius: 8px;
+}
+.moving{
+	transition-duration: .5s;
+}
+.moving:hover{
+	margin-top: -50px;
+}
+.middle{
+	transition-duration: .5s;
+}
+.middle:hover{
+	margin-top: -50px;
+}
+
+
+.price-head{
+	padding: 60px 30px;
+}
+.price-head h1{
+	font-size: 45px;
+}
+.price-head h1 span{
+	font-weight: 300;
+	font-size: 30px;
+}
+.price-head h5{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.price-head strong{
+	color: rgb(71, 178, 228);
+}
+
+.price-table ul{}
+
+.price-table ul li {
+border-bottom: 1px solid #33333338;
+padding:10px 30px;
+}
+
+.price-table ul li i{
+	color: green;
+	font-weight: 600;
+	font-size: 18px;
+	margin-right: 20px;
+}
+
+.order-now{
+	padding: 60px 30px;
+}
+
+.order-now button {
+    color: rgb(71, 178, 228);
+    border: 1px solid;
+    padding:9px 20px;
+}
+
+.active{
+	border-top: 2px solid #47b2e4;
+	padding-bottom: 50px;
+	transition-duration: .5s;
+}
+.active:hover{
+	transform: translateY(20px);
+}
+
+
+.subscription-section{
+	padding:100px 0px;
+	background-color: #F1F5F7;
+}
+
+.subscription-section button{
+	    background-color: #47b3e4;
+   
+    font-weight: 600;
+    transition: all ease .5s;
+    font-size: 17px;
+    color: #fff;
+}
+.subscription-section label{
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.subscription-section .btn{
+	transition-duration: .5s;
+  padding: 8px 48px;
+}
+.subscription-section .btn:hover {
+    color: #47b3e4;
+    background-color: transparent;
+}
+
+.subscription-section input[type="text"]{
+   padding-bottom: 12px;
+}
+
+.subscription-section .form-check label{
+   color: rgb(88, 119, 144);
+   font-weight: 400;
+}
+
+.subscription-section .heading{
+     text-align: left;
+     padding-bottom: 0px;
+}
+.subscription-section .heading h1{
+	margin-bottom: 20px;
+}
+
+.subscription-section .heading p{
+	margin-bottom: 0px;
+}
+
+
+footer{
+	padding-top: 100px;
+	background-color: #37517e;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #bbc4d3;
+    font-weight: 500;
+    transition-duration: .5s; 
+}
+footer ul li {
+	margin-bottom: 15px;
+}
+
+footer ul li a:hover{
+	color: #47b3e4;
+}
+footer h6{
+	margin-bottom: 40px;
+}
+
+.social-link {
+	padding-bottom: 170px;
+}
+
+
+.social-link  li a{
+	background: #47b3e4;
+    color: #fff;
+    text-decoration: none;
+   
+    height: 40px;
+    width: 40px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+}
+
+.social-link li:first-child a{
+background: #3b5998;
+}
+.social-link li:nth-child(2) a{
+background: #cc181e;
+}
+
+.social-link li:nth-child(3) a{
+background: #3b8aca;
+}
+.social-link li:nth-child(4) a{
+background: #0077b5;
+}
+.social-link li:last-child a{
+background: #464646;
+}
+.social-link li a:hover{
+	background-color: rgb(71, 178, 228);
+	color: #fff;
+}
+
+footer img{
+	width: 30px;
+}
+footer span{
+	    color: #bbc4d3;
+	    font-weight: 600;
+	    margin-left: 8px;
+}
+
+footer .botm-menu{
+	border-top: 1px solid #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer .botm-menu p{
+	 color: #bbc4d3;
+	 font-size: 12px;
+	 font-weight: 500;
+
+}
+.partner .respon{
+padding:30px;
+}
+
+
+/*media query*/
+
+
+@media (max-width: 1199px) { 
+
+.home p {
+    padding-top: 25px;
+}
+.feature {
+    padding: 12px;
+
+}
+.feature h1 {
+    font-size: 29px;
+}
+
+.feature p {
+    margin-bottom: 10px;
+}
+.question-section h1 {
+
+    font-size: 22px;
+}
+.question-section ul li a {
+    font-size: 15px;
+}
+
+.about h1 {
+    font-size: 28px;
+}
+
+.member-section {
+    padding: 80px 0px;
+    background-size: 500px;
+}
+
+.heading p {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+}
+
+
+
+
+@media (max-width: 991px) { 
+
+header {
+    background-size: 450px;
+        background-position: right center;
+}
+.home h1{
+	padding-top: 15px;
+	font-size: 32px;
+}
+
+.home {
+    padding-bottom: 50px;
+}
+
+
+.home p{
+	font-size: 15px;
+	padding-top: 15px;
+}
+.feature h1{
+	padding-top: 30px;
+}
+.feature{
+	margin-bottom: 30px;
+}
+.feature h1 {
+    font-size: 22px;
+}
+.features-section {
+    padding: 50px 0px 40px;
+}
+
+.about-section {
+    background-size: 400px;
+    padding: 65px 0px;
+    
+}
+.about h1 {
+    font-size: 22px;
+}
+.about p {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.question-section h1 {
+    font-size: 27px;
+}
+
+
+
+.about p {
+    font-size: 13px;
+    margin-bottom: 18px;
+}
+
+.member-section h1 {
+    margin-bottom: 19px;
+}
+.member-section {
+    padding: 50px 0px;
+    background-size: 410px;
+}
+.member-section h4 {
+    font-size: 20px;
+}
+.member-section h3 {
+    font-size: 20px;
+}
+
+.member-section a {
+    padding: 8px 12px;
+    font-size: 14px;
+}
+ .subscription-section {
+    padding: 80px 0px;
+}
+.question-section {
+    padding: 80px 0px;
+}
+.large-section {
+    padding: 80px 0px;
+}
+.large-section .feature h2 {
+    margin: 20px 0px;
+}
+.partner .respon{
+padding:20px;
+}
+ }
+
+
+
+
+@media (max-width: 767px) { 
+   header{
+	background-image: url();
+	
+}
+.home p {
+       padding-top: 15px;
+}
+.features-section {
+    padding: 40px 0px 30px;
+}
+
+.about-section {
+    background-size: 0px;
+    padding: 65px 0px;
+    
+}
+
+.question-section ul li a {
+    font-size: 17px;
+}
+.member-section {
+
+    background-image: url();
+ 
+}
+.about h1 {
+    font-size: 30px;
+}
+.about p {
+    font-size: 15px;
+}
+.member-section h4 {
+    font-size: 22px;
+}
+.member-section h3 {
+    font-size: 22px;
+}
+.price-table ul li {
+    padding: 8px 20px;
+}
+.order-now {
+    padding: 25px 20px;
+}
+.active {
+    padding-bottom: 37px;
+}
+.price-head {
+    padding: 25px 20px;
+}
+.price-table ul li i {
+    font-size: 15px;
+    margin-right: 10px;
+}
+.order-now button {
+    padding: 7px 18px;
+}
+.subscription-section button {
+    font-size: 14px;
+    
+}
+.subscription-section .btn {
+    padding: 9px 30px;
+    margin: 10px 0px;
+}
+ .subscription-section {
+    padding: 60px 0px;
+}
+.question-section {
+    padding: 60px 0px;
+}
+.large-section {
+    padding: 60px 0px;
+}
+.subscription-section .invisible{
+	display: none;
+}
+.subscription-section .heading h1 {
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.partner .respon{
+padding:10px;
+}
+}
+
+
+
+
+@media (max-width: 575px) { 
+
+.home h1 {
+    font-size:  39px;
+    padding-top: 10px;
+}
+.respon{
+	flex-basis: 20%;
+	padding:5px;
+}
+.partner {
+    padding-top: 15px;
+}
+.home {
+    padding-bottom: 30px;
+}
+
+.home p{
+
+	 padding-top: 10px;
+}
+.question-section {
+    padding: 40px 0px;
+}
+.large-section {
+    padding: 40px 0px;
+}
+.solution-section {
+    padding: 40px 0px;
+}
+.feature-respon{
+	flex-basis: 80%;
+}
+.features-section {
+    padding: 30px 0px 20px;
+}
+.question-section ul li a {
+    font-size: 14px;
+}
+.question-section h1 {
+    font-size: 22px;
+}
+.price-table{
+	margin-bottom: 30px;
+ }
+ .price-section {
+    padding: 40px 0px;
+}
+
+ .subscription-section {
+    padding: 40px 0px;
+}
+.subscription-section .heading h1 {
+    margin-bottom: 15px;
+}
+.subscription-section .heading h1 {
+    font-size: 25px;
+}
+.subscription-section button {
+    font-size: 15px;
+    padding: 10px 28px;
+}
+.subscription-section label {
+    font-size: 14px;
+}
+
+.subscription-section .btn{
+padding: 8px 27px;
+font-size: 14px;
+}
+footer {
+    padding-top: 40px;
+}
+
+.social-link {
+    padding-bottom: 40px;
+}
+footer h6 {
+    margin-bottom: 24px;
+}
+.feature p {
+    margin-bottom: 15px;
+}
+
+}
+
+
+/*media query*/
